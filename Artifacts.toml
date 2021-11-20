@@ -1,143 +1,143 @@
 [[Readline]]
 arch = "aarch64"
-git-tree-sha1 = "d725bed51d864b57a18b3d23e7a4b182357b21f1"
+git-tree-sha1 = "0a9b315f7aa2b61e6a08630bd7ae2a7631b8e594"
 os = "macos"
 
     [[Readline.download]]
-    sha256 = "bd7e0b23e15b13cbeca42c53944c9d9103368f844c1ce58dbdf6f37ff3d0018f"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "f6e15a073c7b57d6fda58b9e444276b3c87796e6b157087bf3142e8ccbf5ef24"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.aarch64-apple-darwin.tar.gz"
 [[Readline]]
 arch = "aarch64"
-git-tree-sha1 = "3d8db9117c64f35e3f54dcd14d4c92c171ae36c6"
+git-tree-sha1 = "993ca95c48b1427a6b7d7469ad59b562ea16e544"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "dd5af3727904e153a522275bbd1349ce40daa8d24230c5da79b7da1fb1ef316f"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "5bd6ede7f6b07e1fff236d3569bbe2d39e4b79e5ed00ed8bca3508aa55433cae"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.aarch64-linux-gnu.tar.gz"
 [[Readline]]
 arch = "aarch64"
-git-tree-sha1 = "40e349481dd373982dd8be4414d8e09cdd271b14"
+git-tree-sha1 = "c1b04a396d68c4dd0fc609c3545b4556f9798eda"
 libc = "musl"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "bb3ca1e50a1a164e2b33475e6b25eed30b4b5f12a89106473f2b197297ccbde0"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.aarch64-linux-musl.tar.gz"
+    sha256 = "fa3aab7a858d0b8254df4125de359a8c0e4467c98a946b9d37c0f20061211633"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.aarch64-linux-musl.tar.gz"
 [[Readline]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "563e9c99829c56955bc62c94f968e41c4b34a07b"
+git-tree-sha1 = "8fc35abb001d4cf968e6697a2636e2ed8f5a3a11"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "e8f6ab373d3c2a89c080ea2b476012121be4379cd94aff3a30dde5d2cb4bb880"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "89c9abfe9b5726b9a71a4788de01f189d5fe4aab1b86f66b5ced2980c74f3d14"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.armv6l-linux-gnueabihf.tar.gz"
 [[Readline]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "37108688cfb4a23095c9798fb2492cc63da9d162"
+git-tree-sha1 = "6393b18536e26eb6b1133683c5b9a718cb50f80d"
 libc = "musl"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "edb23f6d207882b2a66665ded0e46ed4f1354a044989e7625a95273113945f23"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "b0d50df8da0c9a073696c24de1d9536f9fa612e21d8b98964a769172be756c4c"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.armv6l-linux-musleabihf.tar.gz"
 [[Readline]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "08543f4e49a76b3f69912884ed6c99d4462ea03e"
+git-tree-sha1 = "b308b15926cd86a2c83f87e353fc03b7c271eebc"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "fbc1ebdbc5e5b2db1a011837d7515a50e9643490e816bc29c0b188d06ccafca2"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "952c44ce496f5b17ec3c1ba884c5ebeb5d8d4a93b104eb5341807a5adb87b8f2"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.armv7l-linux-gnueabihf.tar.gz"
 [[Readline]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "01a5e1327e3ee36a4e8a5268065a638b8a937758"
+git-tree-sha1 = "43a84dace6b98065f81ce6cd72d557dd25b292af"
 libc = "musl"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "2b0fe09b9ec15aaba8f70b779b8a3ca4a4be87f442a095ca43a79a4a61a9361f"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "6fc7bcef84c68450dd53263e81e2aa069974fb64fc175f3120c52b721b07e2dd"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.armv7l-linux-musleabihf.tar.gz"
 [[Readline]]
 arch = "i686"
-git-tree-sha1 = "6845347b3e11f50b063dcc4187d09cdfc1c2df9b"
+git-tree-sha1 = "728820e41386dfe66fbe5883b122ce157a3fcd09"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "baac0777bc46b755826097335817c29d4b47af7aa639d9024668cbc8c7b16cd9"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.i686-linux-gnu.tar.gz"
+    sha256 = "6b6a9492fa6c8099c2fbc1b30a956e5930fbe3e13b1024e766012223d816bc0f"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.i686-linux-gnu.tar.gz"
 [[Readline]]
 arch = "i686"
-git-tree-sha1 = "63ae5068ed4e03ff2bdee668da50c78f6fcc0cb3"
+git-tree-sha1 = "0fadb2c2b4468f2a9d941951eab1f43612d19895"
 libc = "musl"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "e905edc910e045b9703ffae343e68b1ec002f33ca0782a6b7a52cee0f9ef896a"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.i686-linux-musl.tar.gz"
+    sha256 = "537b2ac03c94d2bff61c29b860170fa2bee0fc3354cd0e3b2efeeb63aa98b67a"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.i686-linux-musl.tar.gz"
 [[Readline]]
 arch = "i686"
-git-tree-sha1 = "4bca66b3c64a060457c6ed5bc196bb075c5a2e46"
+git-tree-sha1 = "51749751410127299b91d97d33d243a898734bd4"
 os = "windows"
 
     [[Readline.download]]
-    sha256 = "677a8ec2bf2bcbbcd896f6296f65c1d568861527f8737d1335855cc727670749"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.i686-w64-mingw32.tar.gz"
+    sha256 = "3a943ffbc24e7171057b35bc240e1df0f196e1389b145bfb78c29f0d515b3097"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.i686-w64-mingw32.tar.gz"
 [[Readline]]
 arch = "powerpc64le"
-git-tree-sha1 = "ae9090198b3c3ffc615a85a078a57adab433940d"
+git-tree-sha1 = "2c7aed1a9d3c1f536b3f96f6d948cbc98b736ae8"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "dae2039ae9c3a7771a27182eaeffd1782cc448a45717fda8a2a0cd89a67473b2"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "cd51b67dc1389fa0ddddd37831b206f6f893d073ed5012610acf24bf5ed56331"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.powerpc64le-linux-gnu.tar.gz"
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "8570cecb2340769aa91f19b709ff1215991ee3c1"
+git-tree-sha1 = "c7c71cb1296f5ec111b412d6c65a478f2db03005"
 os = "macos"
 
     [[Readline.download]]
-    sha256 = "41ba410b1888e7f8d6e2a935a54aeff36e430c6fecdd2aaad3c503316dc4c101"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "42504a215ae0d669218b7ec317acb7ffe1951aa3d2bc1ef821608f3b7e19273e"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.x86_64-apple-darwin.tar.gz"
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "a018fb15c5a8f00780b0f29eae53dc659373cb87"
+git-tree-sha1 = "9bcd3bb0f3644029835b64523caf43d4881b24fe"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "e6c2c4bcb2e6b86362a2f5cd3e846b4e7403d720c15ab84236bdccc78c1b747e"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "16fd94a67e7618bb2a16a66455e1f554bce82311bca7bc1743a4c51e1125d123"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.x86_64-linux-gnu.tar.gz"
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "8986595485241c0fb8f46519a15b6bbb03c69ed8"
+git-tree-sha1 = "26a282922b1fbcbf20366723873677313357f90e"
 libc = "musl"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "0569974ae6c85611a971e740d9e0afd3e659075ed68504cab03cc6c6922c5984"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.x86_64-linux-musl.tar.gz"
+    sha256 = "6fce4b0ee8a5ff7a460cfb37d6d4b614d6afada44799d45442715245a45a6659"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.x86_64-linux-musl.tar.gz"
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "ad33f7b809e8fc6bba556f463eb13047c718400f"
+git-tree-sha1 = "64673495471d6d2c85b1b8b582d55879b3ee3746"
 os = "freebsd"
 
     [[Readline.download]]
-    sha256 = "ae360939650189744c1b234d6bf14593537e51b21613eee0ed18feadee643893"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "269ffcbdb30d6a2552d30edf0fdab248ca3efbdb56191bbcf752a287a09fdf41"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.x86_64-unknown-freebsd.tar.gz"
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "02c5ae4cc60b286715a9cafc9378d7718869122e"
+git-tree-sha1 = "37fa96e4b51bebea39416c3727a1ad5b811a679c"
 os = "windows"
 
     [[Readline.download]]
-    sha256 = "764186c17053ab9c1ec20082a9a2e7deb26415bd35221e6d8d8a36b4423363c2"
-    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+0/Readline.v8.1.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "fdc859e9b5cebd9cadac6bf4e9181b039cfce491c8296a0db0ab3836085188b1"
+    url = "https://github.com/JuliaBinaryWrappers/Readline_jll.jl/releases/download/Readline-v8.1.1+1/Readline.v8.1.1.x86_64-w64-mingw32.tar.gz"
