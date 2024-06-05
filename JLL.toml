@@ -17,17 +17,17 @@ platform = "aarch64-linux-gnu"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:73e29abaf536cd8d8d3b55123d4c535d952a1cd1"
+    treehash = "sha1:41726b26cc15e0bf078b9b2abd13a07b6d8370f6"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:778218041c402037deb01be1505814f59bf1d22d8486c5f878b7f0d6d9e7c30b"
+        tarball_hash = "sha256:af01bdb0182c1a3878cc5595dd0ddbf5df8e72f9e387519f1b47b191da5e251d"
         url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:c8f8a1a4f6c9f9f22cde3e7353e9bbfa006c6122"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f445bcb1ce8437a538f064087690afb2c34ff2db0374e2796fc27b7f25c3307a"
+        tarball_hash = "sha256:5851e82704965f06a2a6351be2f2d5857310f2cd7532332621dd9e0b2dba26b2"
         url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -56,5 +56,5 @@ platform = "aarch64-linux-gnu"
     treehash = "sha1:b18bc5bdcff9c62785e46d19dcdce3717ce10335"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b389f4a2f565f2ce388410ab75036db10809b165f24aec2c68011a65025e54f5"
+        tarball_hash = "sha256:1c2dc593b940bca1e327a04883ebc715e93e18be6789dd850a0f413cec190902"
         url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
