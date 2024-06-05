@@ -17,6 +17,7 @@ The binaries for `Readline` have been built from upstream sources version v8.1.0
 # Dependencies
 The following JLL packages are required by `Readline`:
 
+ - `Ncurses_jll`
 # Products
 
 The code bindings within this package are generated to wrap the following `Product`s:
