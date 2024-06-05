@@ -1,0 +1,56 @@
+name = "Readline"
+version = "1.0.0"
+julia_compat = "1.7"
+platform_augmentation_code = ""
+
+[[builds]]
+deps = []
+name = "default"
+lazy = "false"
+src_version = "8.1.0"
+platform = "aarch64-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:932eb3ea322abc98e540fcd7169edb07d9007ea5"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:6c88524f85aefdef48efba7e81c2449ba997924e4c00d1292ba0bdce880cbc2a"
+        url = "https://github.com/staticfloat/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:4f24a8bb4c751c872132755e2cdcab77bc307fd1"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:fba199956038077b558ce8049e46dd8ed7d1740f8e90c445aca672cb64bc276a"
+        url = "https://github.com/staticfloat/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = []
+    name = "libhistory"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libhistory.so.8"
+    type = "library"
+    path = "lib/libhistory.so.8.1"
+    [[builds.products]]
+    deps = []
+    name = "libreadline"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libreadline.so.8"
+    type = "library"
+    path = "lib/libreadline.so.8.1"
+
+    [[builds.sources]]
+    treehash = "sha1:55705b69b0b41f01be5351c4fb557b7615e64072"
+    url = "https://ftp.gnu.org/gnu/readline/readline-8.1.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:2f99282c87f3ae0e976da076a98e5f8588220e25"
+    url = "https://ftp.gnu.org/gnu/readline/readline-8.1-patches/readline81-001"
+
+    [builds.artifact]
+    treehash = "sha1:b18bc5bdcff9c62785e46d19dcdce3717ce10335"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:184014186d675f1625973da06314ca7791fad0c6cbe0ca5ed0a481fea74e2e14"
+        url = "https://github.com/staticfloat/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
