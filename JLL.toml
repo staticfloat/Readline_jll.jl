@@ -13,18 +13,18 @@ platform = "aarch64-linux-gnu"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:932eb3ea322abc98e540fcd7169edb07d9007ea5"
+    treehash = "sha1:9980c3d360d11d68b36f8b8fb90041d2f188427d"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:6c88524f85aefdef48efba7e81c2449ba997924e4c00d1292ba0bdce880cbc2a"
-        url = "https://github.com/staticfloat/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:d97a817a9c42b69607833295c205704db385e6da8f1469c7b3b4c80028bd4ffd"
+        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
     treehash = "sha1:4f24a8bb4c751c872132755e2cdcab77bc307fd1"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:fba199956038077b558ce8049e46dd8ed7d1740f8e90c445aca672cb64bc276a"
-        url = "https://github.com/staticfloat/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:45301e756e2d2e4555a0a4e68822eec62677f1b2248867dbb2c56a0ce41d3c20"
+        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
 
     [[builds.products]]
     deps = []
@@ -52,5 +52,5 @@ platform = "aarch64-linux-gnu"
     treehash = "sha1:b18bc5bdcff9c62785e46d19dcdce3717ce10335"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:184014186d675f1625973da06314ca7791fad0c6cbe0ca5ed0a481fea74e2e14"
-        url = "https://github.com/staticfloat/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:cf58bf27fbb5d6b72456322eb1ba0a9dd9ee798e746414bbd136f4c8b27449d1"
+        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
