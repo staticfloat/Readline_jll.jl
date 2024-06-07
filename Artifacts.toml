@@ -1,31 +1,31 @@
-[[default]]
+[[Readline]]
 arch = "aarch64"
 git-tree-sha1 = "86dbbae0fc03bf1d84afa1251408a42a6015e612"
 libc = "glibc"
 os = "linux"
 
-    [[default.download]]
-    sha256 = "7ec9ce245f06ed25dd39619855655e788f0ecba9fab55e7cf5e87f9e69078fbc"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
+    [[Readline.download]]
+    sha256 = "a403c34db2b09e57dc041ea53c631a2d8e1dd0a416d3e70fe001b879b92be5ca"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0-bb2_tests/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
 
-[[default-build_log]]
+[[Readline-build_log]]
 arch = "aarch64"
-git-tree-sha1 = "72131361e68c6565ddf3a3d1af1fd5fd9b566081"
+git-tree-sha1 = "cfbaab90812c6f04cae80371c65454eb42c8862a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
-    [[default-build_log.download]]
-    sha256 = "b2a6c92a4eaeb5b850a692e908d7b46b7c431ce2e0eea74735524cddd1628645"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    [[Readline-build_log.download]]
+    sha256 = "624dea44ff32a54287a5b69dd368963e0d1a0b784857fa3124a1918e8fd9daf1"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0-bb2_tests/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
 
-[[default-extract_log]]
+[[Readline-extract_log]]
 arch = "aarch64"
-git-tree-sha1 = "fea9f8f5ba5c5bf3684385ab151275ba9732744e"
+git-tree-sha1 = "cb37b41d97017a25b7d02c21393f7aaa88be3894"
 lazy = true
 libc = "glibc"
 os = "linux"
 
-    [[default-extract_log.download]]
-    sha256 = "e24ce49596d81fb0b1fcf370c3eb023311708644f89551abb8ffcd3a9ad32ca8"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    [[Readline-extract_log.download]]
+    sha256 = "1718740b509c7a5eef09b6283a58feaae9520e633c618587578ec22719268a2b"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0-bb2_tests/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
