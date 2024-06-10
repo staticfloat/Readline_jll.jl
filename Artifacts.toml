@@ -1,31 +1,31 @@
 [[Readline]]
-arch = "aarch64"
-git-tree-sha1 = "86dbbae0fc03bf1d84afa1251408a42a6015e612"
+arch = "x86_64"
+git-tree-sha1 = "e1400c38815c5d9ef1e68058f3f2178cb1437342"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "bd72bd03630550fe73cf6179fb33c6032291d9c0e284c3d9109e3ae93dee436d"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "fb42e8961e48ea179739dead6a8b29535fc68ef087aae2c0e83bd295cc43b69f"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.8-GCCBoostrap/Readline-v1.0.8-x86_64-linux-gnu.tar.gz"
 
 [[Readline-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "fdf1d004c9c927023573c053175114df557288c8"
+arch = "x86_64"
+git-tree-sha1 = "3c531a58a6d81cf44b0c93f39f1b9154c025f022"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-build_log.download]]
-    sha256 = "5420a19576ec9f6b46d23ef3b33e64bffc1d3a69235619d830f4f533075ec565"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "ffce404e3a21cec8c92bc244836f4c23f5d7c1a8055ee0cd821bd2b0b9944885"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.8-GCCBoostrap/Readline-build_log-v1.0.8-x86_64-linux-gnu.tar.gz"
 
 [[Readline-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "cb37b41d97017a25b7d02c21393f7aaa88be3894"
+arch = "x86_64"
+git-tree-sha1 = "ddf2b2c9a22b426a1d90295a29d4917182696fa5"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-extract_log.download]]
-    sha256 = "158b6995839e35e2ec5ab8842564a206149314799f18800c56510e7cb96a13dd"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "cebd43d7eea745a6718d11c0eddc65caf01086972f7f463745fff4511218bfdf"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.8-GCCBoostrap/Readline-extract_log-v1.0.8-x86_64-linux-gnu.tar.gz"

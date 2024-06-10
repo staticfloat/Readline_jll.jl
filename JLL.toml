@@ -1,5 +1,5 @@
 name = "Readline"
-version = "1.0.0"
+version = "1.0.8"
 julia_compat = "1.7"
 platform_augmentation_code = ""
 
@@ -7,7 +7,7 @@ platform_augmentation_code = ""
 name = "Readline"
 lazy = "false"
 src_version = "8.2.0"
-platform = "aarch64-linux-gnu"
+platform = "x86_64-linux-gnu"
 
     [[builds.deps]]
     name = "Ncurses_jll"
@@ -17,26 +17,19 @@ platform = "aarch64-linux-gnu"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:fdf1d004c9c927023573c053175114df557288c8"
+    treehash = "sha1:3c531a58a6d81cf44b0c93f39f1b9154c025f022"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:5420a19576ec9f6b46d23ef3b33e64bffc1d3a69235619d830f4f533075ec565"
-        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:ffce404e3a21cec8c92bc244836f4c23f5d7c1a8055ee0cd821bd2b0b9944885"
+        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.8-GCCBoostrap/Readline-build_log-v1.0.8-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:cb37b41d97017a25b7d02c21393f7aaa88be3894"
+    treehash = "sha1:ddf2b2c9a22b426a1d90295a29d4917182696fa5"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:158b6995839e35e2ec5ab8842564a206149314799f18800c56510e7cb96a13dd"
-        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:cebd43d7eea745a6718d11c0eddc65caf01086972f7f463745fff4511218bfdf"
+        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.8-GCCBoostrap/Readline-extract_log-v1.0.8-x86_64-linux-gnu.tar.gz"
 
-    [[builds.products]]
-    deps = ["Ncurses_jll.libncurses"]
-    name = "libhistory"
-    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
-    soname = "libhistory.so.8"
-    type = "library"
-    path = "lib/libhistory.so.8.2"
     [[builds.products]]
     deps = ["Ncurses_jll.libncurses"]
     name = "libreadline"
@@ -44,6 +37,13 @@ platform = "aarch64-linux-gnu"
     soname = "libreadline.so.8"
     type = "library"
     path = "lib/libreadline.so.8.2"
+    [[builds.products]]
+    deps = ["Ncurses_jll.libncurses"]
+    name = "libhistory"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libhistory.so.8"
+    type = "library"
+    path = "lib/libhistory.so.8.2"
 
     [[builds.sources]]
     treehash = "sha1:b001ca786ca25dd07eeead4688b98fa487e57303"
@@ -53,8 +53,8 @@ platform = "aarch64-linux-gnu"
     url = "https://ftp.gnu.org/gnu/readline/readline-8.2-patches/readline82-001"
 
     [builds.artifact]
-    treehash = "sha1:86dbbae0fc03bf1d84afa1251408a42a6015e612"
+    treehash = "sha1:e1400c38815c5d9ef1e68058f3f2178cb1437342"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:bd72bd03630550fe73cf6179fb33c6032291d9c0e284c3d9109e3ae93dee436d"
-        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
+        tarball_hash = "sha256:fb42e8961e48ea179739dead6a8b29535fc68ef087aae2c0e83bd295cc43b69f"
+        url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.8-GCCBoostrap/Readline-v1.0.8-x86_64-linux-gnu.tar.gz"
