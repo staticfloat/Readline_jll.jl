@@ -1,31 +1,31 @@
 [[Readline]]
-arch = "aarch64"
-git-tree-sha1 = "86dbbae0fc03bf1d84afa1251408a42a6015e612"
+arch = "x86_64"
+git-tree-sha1 = "e1400c38815c5d9ef1e68058f3f2178cb1437342"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "bd72bd03630550fe73cf6179fb33c6032291d9c0e284c3d9109e3ae93dee436d"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "5887b4e46341ae98ce6952d41c046739abc739f3d98db95676a7803c2c95a7b5"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.13-GCCBoostrap/Readline-v1.0.13-x86_64-linux-gnu.tar.gz"
 
 [[Readline-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "fdf1d004c9c927023573c053175114df557288c8"
+arch = "x86_64"
+git-tree-sha1 = "60c24ce0db708289b6b9dc66dfabb17c863a1a64"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-build_log.download]]
-    sha256 = "5420a19576ec9f6b46d23ef3b33e64bffc1d3a69235619d830f4f533075ec565"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "1c8f7209be21eae60950500485919361d3a3b6b2caa0646a437f6fcae07902be"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.13-GCCBoostrap/Readline-build_log-v1.0.13-x86_64-linux-gnu.tar.gz"
 
 [[Readline-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "cb37b41d97017a25b7d02c21393f7aaa88be3894"
+arch = "x86_64"
+git-tree-sha1 = "cf1d8fc12ee8342f78a84b1e76649cf09a0116e3"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-extract_log.download]]
-    sha256 = "158b6995839e35e2ec5ab8842564a206149314799f18800c56510e7cb96a13dd"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "ecc114e5c66fbdf66e7c136f3196545d248f2d0fd897ff543a0a080067830441"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.13-GCCBoostrap/Readline-extract_log-v1.0.13-x86_64-linux-gnu.tar.gz"
