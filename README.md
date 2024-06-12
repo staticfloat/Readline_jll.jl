@@ -13,7 +13,7 @@ The binaries for `Readline` have been built from upstream sources version v8.2.0
 
 `Readline` is available for the following platforms:
 
- - `Linux aarch64 {libc=glibc}`
+ - `Linux x86_64 {libc=glibc}`
 # Dependencies
 The following JLL packages are required by `Readline`:
 

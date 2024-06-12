@@ -1,31 +1,31 @@
 [[Readline]]
-arch = "aarch64"
-git-tree-sha1 = "86dbbae0fc03bf1d84afa1251408a42a6015e612"
+arch = "x86_64"
+git-tree-sha1 = "e1400c38815c5d9ef1e68058f3f2178cb1437342"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "bd72bd03630550fe73cf6179fb33c6032291d9c0e284c3d9109e3ae93dee436d"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "02d01f606ac19d4d6f29eca07c346f9f745b847ccba4a21d534548328d0df6de"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0-GCCBoostrap-x86_64-linux-gnu/Readline-v1.0.0-x86_64-linux-gnu.tar.gz"
 
 [[Readline-build_log]]
-arch = "aarch64"
-git-tree-sha1 = "fdf1d004c9c927023573c053175114df557288c8"
+arch = "x86_64"
+git-tree-sha1 = "edb3ac91da379a3e2ffc94dd6aae9a7e755032f1"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-build_log.download]]
-    sha256 = "5420a19576ec9f6b46d23ef3b33e64bffc1d3a69235619d830f4f533075ec565"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-build_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "ea750f7ebc8ad1c75f81d02bc06a765c50965a366e61e09bcec705b4a2953a00"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0-GCCBoostrap-x86_64-linux-gnu/Readline-build_log-v1.0.0-x86_64-linux-gnu.tar.gz"
 
 [[Readline-extract_log]]
-arch = "aarch64"
-git-tree-sha1 = "cb37b41d97017a25b7d02c21393f7aaa88be3894"
+arch = "x86_64"
+git-tree-sha1 = "4c39402be60f0d62937aa4066af83a9970067b35"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-extract_log.download]]
-    sha256 = "158b6995839e35e2ec5ab8842564a206149314799f18800c56510e7cb96a13dd"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0/Readline-extract_log-v1.0.0-aarch64-linux-gnu.tar.gz"
+    sha256 = "f1330989574db275831613f8180de69c3897fa8a8fc15cfaea018871483bf26f"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v1.0.0-GCCBoostrap-x86_64-linux-gnu/Readline-extract_log-v1.0.0-x86_64-linux-gnu.tar.gz"
