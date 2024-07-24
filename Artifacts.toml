@@ -1,31 +1,150 @@
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "e1400c38815c5d9ef1e68058f3f2178cb1437342"
+git-tree-sha1 = "5c616793f3ee3a6c9a1b373804fb3ef04ecf26a3"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "525dbe733a80933524a64ee17f277e4f645a709cea72b587f5cd7a7a7817f7ef"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2/Readline-v8.2.2-x86_64-linux-gnu.tar.gz"
+    sha256 = "4c8dff58a108242902fb4306357bab55448c5d7efbabf1dddf828a64ec274a63"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-v8.2.2-x86_64-linux-gnu.tar.gz"
+[[Readline]]
+arch = "i686"
+git-tree-sha1 = "945ade6911892f10c2f66e1f5562a1e07b5b530c"
+libc = "glibc"
+os = "linux"
+
+    [[Readline.download]]
+    sha256 = "c423185f4732fd6d58499d839915455771cfe33f570fbf0c760e7061bebf7ebf"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-v8.2.2-i686-linux-gnu.tar.gz"
+[[Readline]]
+arch = "aarch64"
+git-tree-sha1 = "b139022b28abdf7bcfc58571b8a71911f2822274"
+libc = "glibc"
+os = "linux"
+
+    [[Readline.download]]
+    sha256 = "41bd5590899104246f1a29e424aed9b2f0267bc7a6320df6b75fcd4b540aa500"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-v8.2.2-aarch64-linux-gnu.tar.gz"
+[[Readline]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "cdd1f410afe324dd5fcb169fa82915a05628613a"
+libc = "glibc"
+os = "linux"
+
+    [[Readline.download]]
+    sha256 = "7143bb9e28c710a0ca2b3f75cd7c8a5b53a763d52e38566291f400986f82a331"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-v8.2.2-armv7l-linux-gnueabihf.tar.gz"
+[[Readline]]
+arch = "powerpc64le"
+git-tree-sha1 = "e709ebfe7e10d72ab79819c1b2359273d7eb6c97"
+libc = "glibc"
+os = "linux"
+
+    [[Readline.download]]
+    sha256 = "0f44bfe8cdd163b093d4ff9cd6f6e8b38ba95b6dfd419d76080e689b83f601b0"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-v8.2.2-powerpc64le-linux-gnu.tar.gz"
 
 [[Readline-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "002e00b9d6d5332c1be669f4c79d3acbc39719e5"
+git-tree-sha1 = "371edf308a9f7739b5c1c70d9cc41bd1baaf67b0"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-build_log.download]]
-    sha256 = "13d4b8cb7664b29fb884b36c7c7394babb45b1e60933db48314fbdc76e9c7d46"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2/Readline-build_log-v8.2.2-x86_64-linux-gnu.tar.gz"
+    sha256 = "c3412fe79f123374c17ff301f8b234723a546e60f35ffab3935df86830248eb2"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-build_log-v8.2.2-x86_64-linux-gnu.tar.gz"
+[[Readline-build_log]]
+arch = "i686"
+git-tree-sha1 = "2cb61b15add9048b209a5ebfa0865579af6cc782"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-build_log.download]]
+    sha256 = "716f5be19442f6db41d088c35affe47543f4ce106d5e2e0b1cf55034160e47fa"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-build_log-v8.2.2-i686-linux-gnu.tar.gz"
+[[Readline-build_log]]
+arch = "aarch64"
+git-tree-sha1 = "07429500afa23855554abc57b641e6d533534f73"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-build_log.download]]
+    sha256 = "83388b5ee454f8d2f842d94269003809c4ec9cc50cc1b7e58704b256a7be1a0c"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-build_log-v8.2.2-aarch64-linux-gnu.tar.gz"
+[[Readline-build_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ac3d5cff7d03aaa8b14bc1836c50014b79859f68"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-build_log.download]]
+    sha256 = "56c65292f03d3e3705f8106968b1fbda39f38c489c5c53375a789a420cb678d6"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-build_log-v8.2.2-armv7l-linux-gnueabihf.tar.gz"
+[[Readline-build_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "02d9c3ebbc8f519f76cde51c904b6cfbff9b23fe"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-build_log.download]]
+    sha256 = "6da17612f3c0190abab641e9206e337414193e24f6519b3ea1c79517ae4d4fac"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-build_log-v8.2.2-powerpc64le-linux-gnu.tar.gz"
 
 [[Readline-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "60707c7190bdfa441a0d6d4b2c58bc14d9f75e38"
+git-tree-sha1 = "1e14fdda227186bac0a2d431a3223dbf55c3cf79"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-extract_log.download]]
-    sha256 = "9c311e5545273dc4a973302cb3dae2293fe943c16fce07e519b1b2f57a75da78"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2/Readline-extract_log-v8.2.2-x86_64-linux-gnu.tar.gz"
+    sha256 = "c3891df311a44d47ccab3f3d753897fff383d0f5e2f9d2a05124a860fa33c66c"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-extract_log-v8.2.2-x86_64-linux-gnu.tar.gz"
+[[Readline-extract_log]]
+arch = "i686"
+git-tree-sha1 = "fdf72d649126551b5ce18dd28cc575277f29e12b"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-extract_log.download]]
+    sha256 = "37317c201c1ab32ce3b568d92b577e0ed4130bde8a8327baeaabfdcb628d3075"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-extract_log-v8.2.2-i686-linux-gnu.tar.gz"
+[[Readline-extract_log]]
+arch = "aarch64"
+git-tree-sha1 = "6e61cb5523bde63a77869adc4039000f2ba8223a"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-extract_log.download]]
+    sha256 = "d024d92b6d255a1e8a437e148d01eb2d3e3b086e1998a9de3e01cb5f711ad185"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-extract_log-v8.2.2-aarch64-linux-gnu.tar.gz"
+[[Readline-extract_log]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9211bdc504aa1ea24ee3f1b9a838411432b73888"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-extract_log.download]]
+    sha256 = "f91b8c91ac7ee9871e68c17ca2571d715b7b89b1823c341189c52b1b5618f8d4"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-extract_log-v8.2.2-armv7l-linux-gnueabihf.tar.gz"
+[[Readline-extract_log]]
+arch = "powerpc64le"
+git-tree-sha1 = "f49fd01e7ae0d1204d6fea477142de6715f05c88"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[Readline-extract_log.download]]
+    sha256 = "be96478db66ff34474f28cb48c2a1b8f4dcf89f5b84c26837b1653361555f64f"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.2.2-GCCBootstrap/Readline-extract_log-v8.2.2-powerpc64le-linux-gnu.tar.gz"
