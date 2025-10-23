@@ -21,17 +21,17 @@ src_version = "8.3.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:635bc9766fa8aa6036b11eeb507ad1829fec7587"
+    treehash = "sha1:26e3ddbe9e61e67dd53589ee8f8834fa89d276ce"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:783ea583cda2470569fbc64ecf19f69fafb23a9b4b5ea458efaf0fd8c4bfe747"
+        tarball_hash = "sha256:fe23766ed114cde8cc04011c5bd68072808de4028382e3476453016c7c800a90"
         url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-build_log-v8.3.0-x86_64-linux-gnu.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:3f39243b57cb24b16623a95aeb081aaf9b833806"
+    treehash = "sha1:5de0c20fba4f4f2c1e727134ce6d699a54353bff"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:9897475f7e3204e4146a86c19f7fc4815fc6f99dd645ff7ffd8e040b1aeb73af"
+        tarball_hash = "sha256:abb4818faad802063ee6960772957ce873764b961bf7f011c7e9543606f18630"
         url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-extract_log-v8.3.0-x86_64-linux-gnu.tar.gz"
 
     [[builds.products]]
@@ -57,5 +57,5 @@ src_version = "8.3.0"
     treehash = "sha1:d10e74bbf6d3e918ccb803ae80b257391e6a3a9f"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:8898eb617c170c6249dff07d90575e12288e0402f329d1ef577e1be7edb78caa"
+        tarball_hash = "sha256:980608c0831e8b28713ccdf8fcf056a07f938b745470c9e0560ca5ceb87a8602"
         url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-v8.3.0-x86_64-linux-gnu.tar.gz"
