@@ -1,31 +1,31 @@
 [[Readline]]
 arch = "x86_64"
-git-tree-sha1 = "d10e74bbf6d3e918ccb803ae80b257391e6a3a9f"
+git-tree-sha1 = "1b7efa6dd1f9634cadae4ecf813303058e4c4dd9"
 libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "242895f9c80afa9248aee33c5dec2963ffdbafc8cf0ae6799f0f1e278e98dc75"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-v8.3.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "9c65c35a0861af4354bea12af7feef689bfa440030978915832fc5c101f377d5"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.1-GCCBootstrap-x86_64-linux-gnu/Readline-v8.3.1-x86_64-linux-gnu.tar.gz"
 
 [[Readline-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "cdb326ee21dfb80d134c7c874ab626c326006181"
+git-tree-sha1 = "d83975830aab011e61eb377721bbd4ddd328ef3e"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-build_log.download]]
-    sha256 = "29cd601834bb251bdccb3f60faaef6ea17c568c2af33608acb3143068f0a5da8"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-build_log-v8.3.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "b51f06aa74b48222e50961b7d4d4cb47cc44fb9ba53f82cade799efcb59c1a98"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.1-GCCBootstrap-x86_64-linux-gnu/Readline-build_log-v8.3.1-x86_64-linux-gnu.tar.gz"
 
 [[Readline-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "166912dae239485f3e822338395221a918d87ed9"
+git-tree-sha1 = "b83fb0de5b5103a7b3cfa063b439815550f75816"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-extract_log.download]]
-    sha256 = "af5edf025b2beb21e18c626359bf49333f6708e79117869e20ca76360b145fb4"
-    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-extract_log-v8.3.0-x86_64-linux-gnu.tar.gz"
+    sha256 = "dc20cb517d7d1ed9a7bcefc37609e32ce16f2fc7bb7e9c0d5be14bfaa174065e"
+    url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.1-GCCBootstrap-x86_64-linux-gnu/Readline-extract_log-v8.3.1-x86_64-linux-gnu.tar.gz"
