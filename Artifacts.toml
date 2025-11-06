@@ -5,27 +5,27 @@ libc = "glibc"
 os = "linux"
 
     [[Readline.download]]
-    sha256 = "e7c5d46ebaa73941484e4fa2b3600c9c99fc58b8b133042190c4846eaf098bb7"
+    sha256 = "23196214c8818a5b9dddc310f9e8b55118111696e9cee47aafe50ba43426cb06"
     url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-v8.3.0-x86_64-linux-gnu.tar.gz"
 
 [[Readline-build_log]]
 arch = "x86_64"
-git-tree-sha1 = "189a241bd1e95b90c7840806c970358407650dbc"
+git-tree-sha1 = "41d30fd590ac59af7fd38ed47c88ccbfa4c45717"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-build_log.download]]
-    sha256 = "946f81027951d55ae11c48c1f6f8c447137e41eb7b1a24b94d23aa0d63259f0f"
+    sha256 = "8e3df906b06ef068665599dbc4c9a5526ef8d158710f947d5ff4f4e5377b2544"
     url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-build_log-v8.3.0-x86_64-linux-gnu.tar.gz"
 
 [[Readline-extract_log]]
 arch = "x86_64"
-git-tree-sha1 = "0b7235739469216647753333458b3a88bc64cedc"
+git-tree-sha1 = "9911a8a74314c071ca11acdd6b135a2e8fefe86b"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[Readline-extract_log.download]]
-    sha256 = "390a4e1ead151ac87c889ef6b1de05d0da28148748ca49d37b13eb61c50bedd5"
+    sha256 = "181824d6534bfb049b852bc6077a91e5d4e52dd1596c9c2348893b00acc67752"
     url = "https://github.com/staticfloat/Readline_jll.jl/releases/download/v8.3.0-GCCBootstrap-x86_64-linux-gnu/Readline-extract_log-v8.3.0-x86_64-linux-gnu.tar.gz"
